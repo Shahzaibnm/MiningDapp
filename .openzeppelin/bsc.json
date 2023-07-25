@@ -1,0 +1,325 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xc30DE3d3c94b0261F39f4035649379B2abe44F01",
+    "txHash": "0xbaf30482c62eaa6d91f7d8d70071b258d252719fd255a056d0cdd457694970f3"
+  },
+  "proxies": [
+    {
+      "address": "0x6701b16e7909c1B791BE5A983a69843677266725",
+      "txHash": "0xa4517378bb1ca2035b7b98999917ea27d863e445d3830e2b00ef5423fbe23cc2",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "294cd9ed4fd4131033733db6dfca9b05c233e46c157583e0ce65e9d423a61044": {
+      "address": "0x7BFe522DFe6bD7C4A7B9BfF450fa4AdCedf1dA8f",
+      "txHash": "0x6a25db878d9f314346c7bec041b8a8f5fd77a7724f3af1a982a31d5ac2e6aaec",
+      "layout": {
+        "solcVersion": "0.8.10",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "launched",
+            "type": "t_bool",
+            "src": "..\\project:\\contracts\\mining.sol:40"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "launchTime",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:41"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "weekTime",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:42"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "currentWeek",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:43"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "uniqueStakers",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:44"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "rewardDistributed",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:45"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "totalWithdrawanNodes",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:46"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "currentStakedNodes",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:47"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "Fym",
+            "type": "t_contract(IERC20MetadataUpgradeable)402",
+            "src": "..\\project:\\contracts\\mining.sol:49"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "v1",
+            "type": "t_contract(miningDappV1)828",
+            "src": "..\\project:\\contracts\\mining.sol:50"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "timeStep",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:51"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "poolPercent",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:52"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "miningPool",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\mining.sol:53"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "minDeposit",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:54"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "maxDeposit",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:55"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "percentDivider",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:56"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "totalComputingPower",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:57"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "claimDuration",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\mining.sol:58"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "bonus",
+            "type": "t_array(t_uint256)10_storage",
+            "src": "..\\project:\\contracts\\mining.sol:60"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "uplinebonus",
+            "type": "t_array(t_uint256)9_storage",
+            "src": "..\\project:\\contracts\\mining.sol:61"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "users",
+            "type": "t_mapping(t_address,t_struct(User)1010_storage)",
+            "src": "..\\project:\\contracts\\mining.sol:116"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "weeklyData",
+            "type": "t_mapping(t_uint256,t_struct(Week)1028_storage)",
+            "src": "..\\project:\\contracts\\mining.sol:117"
+          },
+          {
+            "contract": "miningDapp",
+            "label": "UserInfos",
+            "type": "t_mapping(t_address,t_struct(UserInfo)1019_storage)",
+            "src": "..\\project:\\contracts\\mining.sol:118"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_contract(IERC20MetadataUpgradeable)402": {
+            "label": "contract IERC20MetadataUpgradeable"
+          },
+          "t_contract(miningDappV1)828": {
+            "label": "contract miningDappV1"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)10_storage": {
+            "label": "uint256[10]"
+          },
+          "t_array(t_uint256)9_storage": {
+            "label": "uint256[9]"
+          },
+          "t_mapping(t_address,t_struct(User)1010_storage)": {
+            "label": "mapping(address => struct miningDapp.User)"
+          },
+          "t_struct(User)1010_storage": {
+            "label": "struct miningDapp.User",
+            "members": [
+              {
+                "label": "startTime",
+                "type": "t_uint256"
+              },
+              {
+                "label": "referrer",
+                "type": "t_address"
+              },
+              {
+                "label": "checkpoint",
+                "type": "t_uint256"
+              },
+              {
+                "label": "invitedNodes",
+                "type": "t_uint256"
+              },
+              {
+                "label": "referralCount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "claimedReward",
+                "type": "t_uint256"
+              },
+              {
+                "label": "claimablePrizePoolIncome",
+                "type": "t_uint256"
+              },
+              {
+                "label": "referralsReward",
+                "type": "t_uint256"
+              },
+              {
+                "label": "claimedReferralReward",
+                "type": "t_uint256"
+              },
+              {
+                "label": "prizePoolIncome",
+                "type": "t_uint256"
+              },
+              {
+                "label": "nodes",
+                "type": "t_uint256"
+              },
+              {
+                "label": "isExists",
+                "type": "t_bool"
+              },
+              {
+                "label": "isActive",
+                "type": "t_bool"
+              },
+              {
+                "label": "isStaked",
+                "type": "t_bool"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_struct(Week)1028_storage)": {
+            "label": "mapping(uint256 => struct miningDapp.Week)"
+          },
+          "t_struct(Week)1028_storage": {
+            "label": "struct miningDapp.Week",
+            "members": [
+              {
+                "label": "Depositor",
+                "type": "t_array(t_address)10_storage"
+              },
+              {
+                "label": "usersAmount",
+                "type": "t_array(t_uint256)10_storage"
+              }
+            ]
+          },
+          "t_array(t_address)10_storage": {
+            "label": "address[10]"
+          },
+          "t_mapping(t_address,t_struct(UserInfo)1019_storage)": {
+            "label": "mapping(address => struct miningDapp.UserInfo)"
+          },
+          "t_struct(UserInfo)1019_storage": {
+            "label": "struct miningDapp.UserInfo",
+            "members": [
+              {
+                "label": "teamPower",
+                "type": "t_array(t_uint256)9_storage"
+              },
+              {
+                "label": "referrals",
+                "type": "t_array(t_uint256)9_storage"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        }
+      }
+    }
+  }
+}
